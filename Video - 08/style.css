@@ -1,0 +1,29 @@
+p {
+  background-color: red;
+  color: white;
+}
+
+div {
+  background-color: black;
+  color: white;
+}
+
+a {
+  background-color: rgb(15, 12, 12);
+  color: white;
+  font-size: 25px;
+}
+
+span {
+  background-color: yellow;
+}
+
+.form {
+  background-color: white;
+  color: black;
+}
+
+.h1 {
+  background-color: black;
+  color: white;
+}

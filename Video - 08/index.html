@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline and Block Elements In HTML</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 style="background-color: aqua">Inline and Block Elements In HTML</h1>
+    <!-- I am a h1 heading and I am also a block element -->
+    <div>I am a div and I am a Block level element</div>
+    <p>I am a Para and I am also Block element</p>
+    <a href="https://www.Google.com">google</a>
+    <span>Span is also like a Div , But it is Inline Element </span>
+
+    <!-- Quick Quiz: -->
+    <!-- Write a vertically aligned form in HTMl in which ask for user's name , city and pin code of a user (without using a br tag)-->
+    <hr />
+    <h1 class="h1">Quick Quiz Form in HTML</h1>
+    <hr />
+    <form action="">
+      <label style="font-weight: bolder" for="name" id="name">
+        Your Good Name :
+      </label>
+      <input type="text" id="name" placeholder="Enter Your Name" />
+      <div class="form">
+        <label style="font-weight: bolder" for="City">City:</label>
+        <input type="text" id="city" placeholder="Enter Your City" />
+      </div>
+      <div class="form">
+        <label style="font-weight: bolder" for="Pin Code">
+          Enter Pin Code of City:
+        </label>
+        <input type="text" id="pin-code" placeholder="Enter Pin Code" />
+      </div>
+      <div class="form">
+        <div class="form">
+          <label for=""><h3>Asking for the maturity of a citizen</h3></label>
+        </div>
+        <input type="checkbox" id="check" />
+        <label for="check" id="check" name="check" check>Are you 18+</label>
+      </div>
+    </form>
+  </body>
+</html>

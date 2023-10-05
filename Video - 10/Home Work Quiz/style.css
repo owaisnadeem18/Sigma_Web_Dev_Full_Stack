@@ -1,0 +1,8 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.first {
+  width: 33.3%;
+  flex-wrap: wrap;
+}

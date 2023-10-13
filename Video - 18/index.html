@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - Margin Border and Padding</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .box {
+        background-color: red;
+      }
+
+      .box-1 {
+        /* background-color: blue; */
+        color: white;
+        margin: 56px;
+        padding: 40px;
+        border: 13px solid black;
+        height: 100px;
+        box-sizing: border-box;
+      }
+      .box-2 {
+        color: rgb(253, 253, 253);
+        margin: 56px;
+        padding: 40px;
+        border: 13px solid rgb(177, 205, 1);
+        height: 100px;
+        box-sizing: border-box;
+      }
+
+      /* Margin Collapse: */
+      /* It is a concept in which we can say that if there are two margins of two elements which are collapsing with each other , then the margin which is dominating means bigger , will get applied on the margin , which was collapsing */
+    </style>
+  </head>
+  <body>
+    <h1>CSS-Box -> Margin Border and Padding</h1>
+    <div class="box box-1">I am box-01</div>
+    <div class="box box-2">I am box-02</div>
+    <div class="box box-3">I am box-03</div>
+  </body>
+</html>

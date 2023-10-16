@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .main-heading {
+        color: blue;
+      }
+
+      .main-heading {
+        color: rgb(109, 109, 210);
+      }
+
+      .main-heading {
+        color: rgb(214, 4, 28);
+      }
+      /* First CSS give prefenrence to Inline styling elements , I'd elements , classes of css and attribute elements in CSS */
+
+      h1 {
+        color: blueviolet;
+        /* it wil not be applied , because here CSS prefer the class elements instead of html tags */
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="main-heading">Heading 01</h1>
+  </body>
+</html>

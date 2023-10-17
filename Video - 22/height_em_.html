@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>em height Unit of CSS</title>
+    <style>
+      html {
+        font-size: 25px;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .text {
+        background-color: red;
+        color: white;
+        font-size: 26px;
+      }
+
+      .text p {
+        font-size: 2em;
+      }
+
+      .text-2 {
+        background-color: rgb(127, 160, 160);
+        color: rgb(42, 10, 10);
+        font-size: 2rem; /* It (2 em) clearly means that it is 2 times of it's parent's element */
+      }
+
+      /* ***** NOTE ***** */
+      /* V-min and V-max are two more units in CSS , which means that in our monitor or big screen device , V-min would be our height while in our phone devices V-min would be our width  */
+    </style>
+  </head>
+  <body>
+    <div class="text">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+        fugiat ducimus debitis neque quaerat doloremque tenetur unde obcaecati
+        molestias, dolore commodi dolores fugit sed libero fuga praesentium!
+        Suscipit iste, cumque odio pariatur, quae ex quibusdam expedita
+        voluptatibus odit sint perspiciatis, accusamus repudiandae similique
+        aliquid explicabo.
+      </p>
+    </div>
+    <div class="text-2">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+        fugiat ducimus debitis neque quaerat doloremque tenetur unde obcaecati
+        molestias, dolore commodi dolores fugit sed libero fuga praesentium!
+        Suscipit iste, cumque odio pariatur, quae ex quibusdam expedita
+        voluptatibus odit sint perspiciatis, accusamus repudiandae similique
+        aliquid explicabo.
+      </p>
+    </div>
+  </body>
+</html>

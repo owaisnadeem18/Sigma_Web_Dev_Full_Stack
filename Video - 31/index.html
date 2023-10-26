@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Media Queries</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: black;
+        color: white;
+      }
+
+      .boxes {
+        display: flex;
+        align-items: center;
+      }
+
+      .box {
+        width: 360px;
+        height: 360px;
+        background-color: lightblue;
+        border: 2px solid red;
+        padding: 56px;
+        margin: 56px;
+      }
+
+      @media only screen and (max-width: 570px) {
+        .box {
+          width: 240px;
+        }
+      }
+      @media only screen and (max-width: 470px) {
+        .box {
+          width: 140px;
+        }
+      }
+      @media only screen and (max-width: 340px) {
+        .box {
+          width: 100px;
+        }
+      }
+
+      @media only screen and (max-width: 700px) {
+        .boxes {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boxes">
+      <div class="box"></div>
+      <div class="box"></div>
+      <div class="box"></div>
+    </div>
+  </body>
+</html>

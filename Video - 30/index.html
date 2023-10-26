@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Variables</title>
+    <style>
+      :root {
+        --first-bg-color: lightblue;
+        /* global variable in CSS */
+        --second-bg-color: lightgreen;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .nav {
+        background-color: var(--first-bg-color);
+        /* local variable in CSS */
+      }
+
+      .cont {
+        background-color: var(--second-bg-color);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+    <div class="cont">
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, nam
+        neque sunt at ab unde illo error necessitatibus autem sint expedita,
+        sapiente maxime. Doloribus, tenetur deserunt et earum consequuntur
+        quaerat nobis libero corrupti nemo soluta possimus magni adipisci totam
+        minus quae cupiditate voluptatibus eligendi quidem, non expedita sunt.
+        Impedit magni cupiditate doloribus maiores eaque iure a.
+      </p>
+    </div>
+  </body>
+</html>

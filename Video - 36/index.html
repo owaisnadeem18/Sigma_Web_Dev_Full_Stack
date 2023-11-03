@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 04 Solution</title>
+    <style>
+      :root {
+        --background-color: rgb(130, 230, 0);
+        --Color: rgb(0, 8, 255);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      ul {
+        background-color: rgb(32, 0, 0);
+        background-color: var(--background-color);
+        height: 4vh;
+        padding-top: 1.2rem;
+      }
+      ul li {
+        list-style: none;
+        display: inline;
+        padding-right: 5rem;
+        margin-left: 3.2rem;
+        font-weight: 800;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      ul li a {
+        text-decoration: none;
+        color: var(--Color);
+        /* background-color: red; */
+      }
+
+      ul li a:hover {
+        text-decoration: underline;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        transition: 4s ease-in-out;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- In this exercie we were asked to create a multi color navbar which can change it's color using CSS Variables -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#"> Home</a></li>
+          <li><a href="#"> About</a></li>
+          <li><a href="#"> Services</a></li>
+          <li><a href="#"> Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 06 Solution</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .navbar {
+        padding: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .right {
+        padding: 45px;
+      }
+
+      .right ul li {
+        padding: 0 1px;
+        margin: 0 26px;
+      }
+
+      .right ul {
+        list-style: none;
+        display: flex;
+        padding: 0 45px;
+      }
+
+      .right ul li {
+        cursor: pointer;
+      }
+
+      .right ul li img {
+        width: 55px;
+        margin-top: -26px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="left">
+          <img src="left-logo-img.png" alt="" />
+        </div>
+        <div class="right">
+          <ul>
+            <li>Products ▼</li>
+            <li>Pricing ▼</li>
+            <li>Resources ▼</li>
+            <li>About Us ▼</li>
+            <li><img src="right-icon.png" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>

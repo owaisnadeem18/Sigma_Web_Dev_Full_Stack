@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Animations</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        background-color: red;
+        width: 15vw;
+        height: 90vh;
+        border: 12px solid rgb(4, 0, 117);
+      }
+
+      .box {
+        width: 9vw;
+        height: 19vh;
+        /* animation-name: meri_animations;
+        animation-duration: 4s;
+        animation-play-state: paused;
+        animation-iteration-count: 2;
+        animation-timing-function: ease-in-out;
+        animation-delay: 1s;
+        animation-direction: alternate-reverse; */
+        /* animation short hand property to get the access of all the properties of animations in just one line of code */
+        animation: meri_animations 4s forwards 4s infinite; /* It was a short hand property for the animations */
+        /* animation: name duration timing-function delay iteration-count direction
+          fill-mode; */
+      }
+
+      @keyframes meri_animations {
+        from {
+          background-color: rgb(113, 128, 0);
+        }
+
+        to {
+          background-color: aqua;
+          transform: translateX(450px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">Dabba</div>
+    </div>
+  </body>
+</html>

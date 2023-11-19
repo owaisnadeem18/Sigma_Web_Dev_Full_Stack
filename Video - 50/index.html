@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Filters</title>
+
+    <style>
+      .img-1 {
+        width: 450px;
+        /* filter: blur(5px); */
+        filter: brightness(381px);
+        /* filter: contrast(40%); */
+      }
+      .img-2 {
+        width: 320px;
+        /* filter: sepia(100%); */
+        filter: opacity(0.199);
+      }
+      .img-3 {
+        filter: invert(1);
+        width: 450px;
+        filter: drop-shadow(400px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        class="img-1"
+        src="https://cms-image-bucket-production-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com/images/7/8/5/5/46265587-1-eng-GB/20230726%20Cover%20Imran%20Khan%20profile%20img.png"
+        alt=""
+      />
+      <img
+        class="img-2"
+        src="https://en.dailypakistan.com.pk/digital_images/large/2023-08-08/imran-khan-biography-1691505311-9489.jpg"
+        alt=""
+      />
+      <img
+        class="img-3"
+        src="https://organiser.org/wp-content/uploads/2022/04/imrankhan-pti-1631806759.jpeg"
+        alt=""
+      />
+    </div>
+  </body>
+</html>

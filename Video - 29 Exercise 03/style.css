@@ -1,0 +1,283 @@
+body {
+  background-color: rgb(3, 21, 124);
+  color: rgb(255, 255, 255);
+}
+.card {
+  border: 7px solid rgb(255, 255, 255);
+  border-radius: 4rem;
+  width: 18.8vw;
+
+  width: 23.8vw;
+  height: 49vh;
+  align-items: center;
+  justify-content: center;
+  padding: 6em 1rem 6rem 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 45px;
+}
+.card img {
+  height: 20vh;
+  border-radius: 10px;
+  margin: auto 1rem;
+}
+
+.btns {
+  display: flex;
+  height: 14rem;
+  width: 15rem;
+  justify-content: space-around;
+  margin-top: 1.3rem;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-1 {
+  color: aliceblue;
+  background-color: black;
+  border-radius: 1.3rem;
+  width: 6rem;
+  font-size: 0.97rem;
+
+  font-weight: 600;
+  height: 2.4rem;
+  border: 0.5px solid rgb(6, 5, 5);
+  cursor: pointer;
+}
+.btn-2 {
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+
+  width: 6rem;
+  font-size: 0.94rem;
+  border: 0.5px solid rgb(6, 5, 5);
+  font-weight: 600;
+  width: 6.6rem;
+  cursor: pointer;
+  height: 2.4rem;
+}
+h1 {
+  font-weight: 900;
+}
+
+.para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.para p {
+  width: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1115px) {
+  .card {
+    width: 23.8vw;
+    height: 49vh;
+    padding: 6rem 4rem 6rem 4rem;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .card {
+      width: 23.8vw;
+      height: 42vh;
+      align-items: center;
+      justify-content: center;
+      padding: 5rem 4rem 5rem 4rem;
+      display: flex;
+      flex-direction: column;
+      margin: 45px;
+    }
+    .card img {
+      height: 16vh;
+    }
+    .btns {
+      display: flex;
+      height: 6rem;
+      width: 13rem;
+      margin: 9px;
+      justify-content: space-evenly;
+      margin-top: 0.4rem;
+      align-items: center;
+      text-align: center;
+    }
+
+    .btn-1 {
+      color: aliceblue;
+      background-color: black;
+      border-radius: 1.3rem;
+      width: 4.4rem;
+      font-size: 0.72rem;
+
+      font-weight: 600;
+      height: 1.7rem;
+      border: 0.5px solid rgb(6, 5, 5);
+      cursor: pointer;
+    }
+    .btn-2 {
+      border-radius: 30px;
+      background-color: black;
+      color: white;
+      width: 6rem;
+      font-size: 0.72rem;
+      font-weight: 600;
+      cursor: pointer;
+      height: 1.7rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      margin: auto;
+    }
+    .para p {
+      width: 15rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      word-spacing: 0.2rem;
+      font-size: 0.9rem;
+    }
+  }
+
+  @media only screen and (max-width: 720px) {
+    .card {
+      width: 23.8vw;
+      height: 35vh;
+      align-items: center;
+      justify-content: center;
+      padding: 5rem 4rem 5rem 4rem;
+      display: flex;
+      flex-direction: column;
+      margin: 45px;
+    }
+    .card img {
+      height: 16vh;
+    }
+    .btns {
+      display: flex;
+      height: 10rem;
+      width: 10rem;
+      margin: 9px;
+      justify-content: space-evenly;
+      margin-top: 0.4rem;
+      align-items: center;
+      text-align: center;
+    }
+
+    .btn-1 {
+      color: aliceblue;
+      background-color: black;
+      border-radius: 1.3rem;
+      width: 4rem;
+      font-size: 0.69rem;
+
+      font-weight: 600;
+      height: 1.6rem;
+      border: 0.5px solid rgb(6, 5, 5);
+      cursor: pointer;
+    }
+    .btn-2 {
+      border-radius: 30px;
+      background-color: black;
+      color: white;
+      width: 5.5rem;
+      font-size: 0.69rem;
+      font-weight: 600;
+      cursor: pointer;
+      height: 1.6rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+      width: 149px;
+      margin: auto;
+    }
+    .para p {
+      width: 13rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      word-spacing: 0.3rem;
+      font-size: 0.84rem;
+    }
+  }
+  @media only screen and (max-width: 520px) {
+    .card {
+      height: 29vh;
+      padding: 5rem 4rem;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      margin: 95px;
+    }
+    .card img {
+      height: 14vh;
+    }
+    .btns {
+      display: flex;
+      height: 10rem;
+      width: 10rem;
+      margin: 9px;
+      justify-content: space-evenly;
+      margin-top: 0.4rem;
+      align-items: center;
+      text-align: center;
+    }
+
+    .btn-1 {
+      color: aliceblue;
+      background-color: black;
+      border-radius: 1.3rem;
+      width: 4rem;
+      font-size: 0.69rem;
+
+      font-weight: 600;
+      height: 1.6rem;
+      border: 0.5px solid rgb(6, 5, 5);
+      cursor: pointer;
+    }
+    .btn-2 {
+      border-radius: 30px;
+      background-color: black;
+      color: white;
+      width: 5.5rem;
+      font-size: 0.69rem;
+      font-weight: 600;
+      cursor: pointer;
+      height: 1.6rem;
+    }
+    h1 {
+      font-size: 1.2rem;
+      width: 93px;
+      margin: auto;
+    }
+    .para p {
+      width: 11rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      word-spacing: 0.3rem;
+      font-size: 0.64rem;
+    }
+  }
+}
+
+.my-name {
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

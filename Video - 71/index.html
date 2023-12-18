@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video - 71</title>
+  </head>
+  <body>
+    <div class="container" style="display: inline-block" data-createdBy="Owais">
+      <div class="box">I am a Box</div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+    <script>
+      // How to insert an element or tag in your HTML using your JavaScript DOM
+      let div = document.createElement("div");
+      div.innerHtml = "hey ! I am an <b>extra</b>";
+      div.setAttribute("class", "created");
+      document.querySelector(".container").append(div);
+      console.log(div);
+    </script>
+  </body>
+</html>

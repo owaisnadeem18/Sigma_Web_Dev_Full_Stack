@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position properties revision in CSS</title>
+    <style>
+      /* Note: */
+      /* By default every CSS element's property is static */
+      /* Using Z-index means that , I can take one object onto another */
+      /* transform , filter and perspective properties can also be considered as the position properties (for a child) */
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .box {
+        border: 4px solid red;
+        height: 14vh;
+        width: 7vw;
+        padding: 5rem;
+        margin: 1rem 5rem;
+        border-radius: 4rem;
+      }
+
+      .box-1 {
+        background-color: red;
+        color: white;
+        font-weight: 700;
+        font-size: 1.9rem;
+        border: 7px solid rgb(72, 195, 185);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        /* left: 45rem; */
+        right: 2rem;
+        bottom: 0;
+        height: 10vh;
+        justify-content: center;
+      }
+
+      .box-2 {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-weight: 700;
+        font-size: 1.9rem;
+        border: 7px solid rgb(119, 85, 223);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 132rem;
+      }
+
+      .box-3 {
+        background-color: rgb(0, 0, 255);
+        color: white;
+        font-weight: 700;
+        font-size: 1.9rem;
+        border: 7px solid rgb(255, 39, 39);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box box-1">I am box - 01</div>
+    <div class="box box-2">I am box - 02</div>
+    <div class="box box-3">I am box - 03</div>
+  </body>
+</html>

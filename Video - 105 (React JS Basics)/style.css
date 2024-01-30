@@ -1,0 +1,15 @@
+/* This is my css file  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  height: 15vh;
+  width: 17vw;
+  border: 2px solid black;
+  margin: 41px auto;
+  padding: 2rem 0 3rem 0;
+  text-align: center;
+}

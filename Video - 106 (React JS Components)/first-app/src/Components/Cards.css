@@ -1,0 +1,13 @@
+.card {
+  display: flex;
+  margin: auto;
+  overflow: hidden;
+}
+
+.card-content {
+  padding: 1rem 1rem;
+  width: 100%;
+  /* margin: 4rem auto; */
+  margin: auto;
+  box-sizing: border-box;
+}

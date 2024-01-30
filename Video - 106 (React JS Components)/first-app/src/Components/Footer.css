@@ -1,0 +1,12 @@
+/* Footer CSS */
+
+.footer {
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-family: 900;
+  background-color: rgb(39, 37, 37);
+}

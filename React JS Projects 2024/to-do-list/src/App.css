@@ -1,0 +1,162 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800&display=swap");
+
+body {
+  background-color: rgba(25, 37, 122, 0.737);
+  font-family: "Poppins", sans-serif;
+}
+
+.main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.center-div {
+  box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.center-div h1 {
+  text-align: center;
+  background-color: rgb(25, 4, 188);
+  padding: 0rem 1rem;
+  font-weight: 900;
+  color: rgb(220, 253, 32);
+  font-size: 4rem;
+}
+
+.center-div input {
+  margin: 1px 13px;
+  padding: 3px 19px;
+  border-style: none;
+  text-align: center;
+  outline: none;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  font-size: 2rem;
+  border-bottom: 2px solid rgb(27, 1, 157);
+  border-radius: 4rem;
+  font-weight: 700;
+}
+
+.center-div button {
+  box-shadow: 0 0 12px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  border: 2px solid rgb(0, 46, 228);
+  margin: 10px 15px 0 0;
+  font-size: 1.6rem;
+  padding: 5px 10px;
+  text-align: center;
+  font-weight: 900;
+  transition: 0.5s;
+}
+
+.center-div button:hover {
+  background-color: rgb(13, 2, 134);
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.center-div ol {
+  margin-top: 8px;
+  list-style: none;
+}
+
+.center-div ol li {
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-style: italic;
+}
+
+/* CSS for handling the cross symbol */
+
+.ToDo {
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-start; */
+}
+
+.ToDo button:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .center-div h1 {
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+  }
+  .center-div input {
+    margin: 1px 16px;
+    padding: 2px 1px;
+    border-style: none;
+    text-align: center;
+    outline: none;
+    color: rgb(6, 199, 242);
+    font-weight: 800;
+    font-size: 1.5rem;
+    border-bottom: 2px solid rgb(27, 1, 157);
+  }
+  .center-div ol li {
+    padding: 10px;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .center-div input {
+    margin: 1px 14px;
+    padding: 1px 1px;
+    font-weight: 800;
+    font-size: 1.2rem;
+    border-bottom: 2px solid rgb(27, 1, 157);
+  }
+}

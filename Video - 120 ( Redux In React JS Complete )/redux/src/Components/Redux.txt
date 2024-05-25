@@ -1,0 +1,6 @@
+Redux store is a source of truth , where we have our stored states and we can access it from there. 
+
+OR 
+
+The term redux is actually means that we can read an information of a component from redux store , means we can pass an information to another component without passing a prop 
+

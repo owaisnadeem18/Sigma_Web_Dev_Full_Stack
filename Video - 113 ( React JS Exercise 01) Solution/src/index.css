@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  margin-top: 4rem;
+  border: 1px solid rgb(63, 242, 255);
+  margin-bottom: 4rem;
+  max-width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(41, 41, 139);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.card img {
+  max-width: 240px;
+}
